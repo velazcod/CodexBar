@@ -28,7 +28,7 @@ public struct OpenCodeGoUsageFetcher: Sendable {
     private static let baseURL = URL(string: "https://opencode.ai")!
     private static let serverURL = URL(string: "https://opencode.ai/_server")!
     private static let workspacesServerID = "def39973159c7f0483d8793a822b8dbb10d067e12c65455fcb4608459ba0234f"
-    private static let subscriptionServerID = "f6fef39ee2c7c233a226d062b50a92eef4a30ebec5d3ec95b8092081d13ddc75"
+    private static let subscriptionServerID = "c7389bd0e731f80f49593e5ee53835475f4e28594dd6bd83eb229bab753498cd"
 
     private static let userAgent =
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
